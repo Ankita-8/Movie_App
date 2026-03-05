@@ -79,7 +79,3 @@ export default Home;
 
 
 
-// in react some changes are there because it usess jsx
-// and jsx uses self closing tag if we dont able load the page so sytax is necesary
-// and while writing components we need keep first letter of that function capital
-// setSearchQuery is a function
