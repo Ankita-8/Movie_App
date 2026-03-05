@@ -1,6 +1,6 @@
 
 
-const API_KEY ="c24bf92b36a35b9850577c5c13802670";
+const API_KEY ="";
 const BASE_URL="https://api.themoviedb.org/3"
 
 
@@ -24,4 +24,5 @@ export const searchMovies = async (query) => {
   );
   const data = await response.json();
   return data.results;
+
 };
